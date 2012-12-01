@@ -24,7 +24,7 @@ public class SecondActivity extends Activity {
 		if(disp_pict.equals("Apple")){
 			image.setImageResource(R.drawable.apple);
 		}
-		else if	(disp_pict.equals("banana")){
+		else if	(disp_pict.equals("Banana")){
 			image.setImageResource(R.drawable.banana);
 		}
 		else if	(disp_pict.equals("Grape")){
