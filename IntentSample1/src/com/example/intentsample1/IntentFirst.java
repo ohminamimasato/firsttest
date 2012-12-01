@@ -9,10 +9,12 @@ import android.widget.AdapterView.OnItemClickListener;
 import android.widget.ListView;
 
 public class IntentFirst extends Activity {
-
+//onCreateメソッド(画面初期表示イベントハンドラ）
     @Override
     public void onCreate(Bundle savedInstanceState) {
+    	//スーパークラスのonCreateメソッドの呼び出し
         super.onCreate(savedInstanceState);
+        //レイアウト設定ファイルの指定
         setContentView(R.layout.activity_intent_first);
 
 
