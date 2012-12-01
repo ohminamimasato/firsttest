@@ -19,7 +19,7 @@ public class IntentFirst extends Activity {
 
 
         ListView listview =(ListView)findViewById(R.id.fruitlist);
-        listview.setOnItemClickListener(new ListItemClicklistener());
+        listview.setOnItemClickListener(new ListItemClickListener());
 
     }
 
