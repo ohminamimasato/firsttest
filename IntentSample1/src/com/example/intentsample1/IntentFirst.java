@@ -17,7 +17,7 @@ public class IntentFirst extends Activity {
         //レイアウト設定ファイルの指定
         setContentView(R.layout.activity_intent_first);
 
-
+        //ListViewの紐つけ
         ListView listview =(ListView)findViewById(R.id.fruitlist);
         listview.setOnItemClickListener(new ListItemClickListener());
 
